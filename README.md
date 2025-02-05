@@ -15,7 +15,7 @@ It allows users to **sign up, log in, join chat rooms, send messages, leave room
 
 ---
 ## Screenshot:
-
+1. (https://github.com/Ishajoshi02/101343698_lab_test1_chat_app/blob/main/Screenshots/Screenshot%202025-02-05%20155101.png)
 
 ---
 ## 🛠️ Tech Stack
