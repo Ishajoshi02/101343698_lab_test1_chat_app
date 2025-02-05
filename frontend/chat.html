@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h2>Chat Room</h2>
+        <select id="roomSelect">
+            <option value="devops">DevOps</option>
+            <option value="cloud computing">Cloud Computing</option>
+            <option value="covid19">Covid19</option>
+            <option value="sports">Sports</option>
+            <option value="nodeJS">NodeJS</option>
+        </select>
+        <button onclick="joinRoom()">Join Room</button>
+        <button onclick="logout()">Logout</button>
+        
+        <div id="chat-box"></div>
+        <input type="text" id="messageInput" placeholder="Type a message..." onkeyup="typing()">
+        <button onclick="sendMessage()">Send</button>
+        <p id="typingIndicator"></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="js/socket.js"></script>
+</body>
+</html>
